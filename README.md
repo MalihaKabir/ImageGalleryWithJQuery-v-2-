@@ -1,1 +1,1 @@
-# ImageGalleryWithJQuery-v-2-
+# ImageGalleryWithCaptionUsingJQuery(v-2)
