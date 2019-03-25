@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 2rem;
+}
+
+.row{
+  margin: 0.5rem 2rem;
+  height: 50vh!important;
+}
+
+
+img {
+  margin-top: 2rem;
+  /* vertical-align: middle; */
+  width: 100%;
+  /* min-height: 25rem; */
+}
+/* img:hover{
+  opacity: 0.7;
+  transition: 1s;
+} */
+
+/* Lightbox Background */
+#lightbox-display {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Sit on top */
+  /*padding-top: 4em; *//* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  padding: 3rem 2rem 6rem;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,1); /* Black w/ opacity */
+}
